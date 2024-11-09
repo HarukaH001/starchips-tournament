@@ -1,5 +1,21 @@
 # Starchips Tournament
 Starchips battle tournament system.
+Include API Servers and Client/Admin Interactive UI
+Admin can create user and generate QR, show to player, then player can see his stats.
+Player should use his stats page with identical physical name card to identify ownership.
+Player can select bet amount from UI and generate battle QR for admin/referree to initiate battles.
+Battle histories are to be shown on each player's stats page.
+Leaderboard is to show ranking of players with highest starchips at a time.
+
+Planned
+- Player Tiers
+    - players battling should be on same tier with different minimum bets of each tier.
+- Battle Phases
+    - Each phase of tournament have minimum bets
+    - The Tournament have N phases
+    - Current Phase and time until next phase should show on player stats and leaderboard page
+    - Ongoing battles initiated before end of phases should continue as normal with already placed bets.
+    - Server does not need to know ongoing battles. It needs only results submitted.
 
 ## Prerequisite
 - Go
